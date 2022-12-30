@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>My Public IP Address: <span id="ip"></span></h1>
+    <div id="details-container">
+        <div id="details">
+            <p>Lat:<span id="lat"></span></p>
+            <p>Long:<span id="lon"></span></p>
+        </div>
+        <div id="details">
+            <p>City:<span id="city"></span></p>
+            <p>Region:<span id="region"></span></p>
+        </div>
+        <div id="details">
+            <p>Organisation:<span id="org"></span></p>
+            <p>Hostname:<span id="hostname"></span></p>
+        </div>
+    </div>
+    <iframe src="" frameborder="0" id="map"></iframe>
+    <p><b>Time Zone:<span id="timezone"></span></b></p>
+    <p><b>Date and Time:<span id="datetime"></span></b></p>
+    <p><b>Pincode:<span id="pincode"></span></b></p>
+    <p><b>Message:<span id="message"></span></b></p>
+
+    <input type="text" style="width: 100%; font-size: larger;" placeholder="filter">
+
+    <div id="postoffices"></div>
+
+    <script src="index2.js"></script>
+</body>
+</html>
